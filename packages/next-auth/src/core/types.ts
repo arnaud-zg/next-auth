@@ -38,7 +38,7 @@ export interface NextAuthOptions {
   providers: Provider[]
   /**
    * A random string used to hash tokens, sign cookies and generate cryptographic keys.
-   * If not specified, it falls back to `jwt.secret` or `NEXTAUTH_SECRET` from environment vairables.
+   * If not specified, it falls back to `jwt.secret` or `NEXTAUTH_SECRET` from environment variables.
    * Otherwise it will use a hash of all configuration options, including Client ID / Secrets for entropy.
    *
    * NOTE: The last behavior is extrmely volatile, and will throw an error in production.
